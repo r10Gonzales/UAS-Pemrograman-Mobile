@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
-        tools:text="Nama Menu" />
+        tools:text="@string/nama_menu" />
 
     <!-- Kategori -->
     <TextView
@@ -41,7 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="8dp"
-        tools:text="Kategori" />
+        tools:text="@string/category" />
 
     <!-- Deskripsi -->
     <TextView
@@ -53,6 +53,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
-        tools:text="Deskripsi makanan akan ditampilkan di sini." />
+        tools:text="@string/deskripsi_makanan_akan_ditampilkan_di_sini" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UASRestoJSON_191051024</string>
+    <string name="nama_menu">Nama Menu</string>
+    <string name="deskripsi_makanan_akan_ditampilkan_di_sini">Deskripsi makanan akan ditampilkan di sini.</string>
+    <string name="menu_title">Menu Title</string>
+    <string name="category">Category</string>
+
 </resources>
