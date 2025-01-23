@@ -8,5 +8,6 @@ data class Menu(
     val idMeal: String,
     val strMeal: String,
     val strCategory: String,
-    val strMealThumb: String
+    val strMealThumb: String,
+    val strInstructions: String
 ) : Parcelable

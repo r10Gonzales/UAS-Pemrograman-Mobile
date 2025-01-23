@@ -25,7 +25,9 @@ class DetailActivity : AppCompatActivity() {
             // Mengisi data ke view
             tvTitle.text = menu.strMeal
             tvCategory.text = menu.strCategory
-            tvDescription.text = "Deskripsi menu ini akan ditampilkan di sini." // Sesuaikan jika ada deskripsi di API
+            tvDescription.text = menu.strInstructions.replace("\r\n", "\n") // Menampilkan instruksi/deskripsi dari API
+
+            // Menampilkan gambar menu
             Glide.with(this)
                 .load(menu.strMealThumb)
                 .placeholder(R.drawable.ic_launcher_background)
